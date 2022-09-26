@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/norugant/AndroidStudioProjects/FirstApp/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.129" />
         <entry key="..\:/Users/norugant/AndroidStudioProjects/FirstApp/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
-        <entry key="..\:/Users/norugant/AndroidStudioProjects/FirstApp/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/norugant/AndroidStudioProjects/FirstApp/app/src/main/res/layout/activity_main2.xml" value="0.264" />
         <entry key="..\:/Users/norugant/AndroidStudioProjects/FirstApp/app/src/main/res/layout/category_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/norugant/AndroidStudioProjects/FirstApp/app/src/main/res/xml/network_security_config.xml" value="0.11302083333333333" />
       </map>
