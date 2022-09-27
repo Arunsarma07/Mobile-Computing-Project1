@@ -58,7 +58,10 @@ def handle_request():
         filename = werkzeug.utils.secure_filename(imagefile.filename)
         print("\nReceived image File name : " + imagefile.filename)
         timestr = time.strftime("%Y%m%d_%H%M%S")
-        imagefile.save(os.path.join("./uploadedImages/" + textmsg, timestr+'_'+filename))
+        path = os.path.join("./uploadedImages/" + textmsg)
+        if not os.path.exists(path):
+            os.mkdir(path)      
+        imagefile.save(os.path.join(path, timestr+'_'+filename))
         return "Image Uploaded Successfully"
     return '''
     <!doctype html>
